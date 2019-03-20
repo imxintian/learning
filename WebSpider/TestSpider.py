@@ -11,9 +11,11 @@
 import requests
 
 
-r = requests.get('https://www.baidu.com')
+r = requests.get('https://www.12306.cn')
 
 # print(type(r))
 # print(r.text)
+print(r.status_code)
+print(r.content)
 
 
